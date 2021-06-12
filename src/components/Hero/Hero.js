@@ -19,7 +19,12 @@ const Hero = (props) => (
         The purpose of this portfolio is to present my self to the world and
         take my development skills to the next level.
       </SectionText>
-      <Button onClick={() => (window.location = 'https://google.com')}>
+      <Button
+        onClick={() =>
+          (window.location =
+            'https://www.linkedin.com/in/malek-haddar-288304182/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAACsdoIgBlzo-YgtBNkaQvwKn9MXB7tiA1gI,1635458032425)/')
+        }
+      >
         Learn More
       </Button>
     </LeftSection>
