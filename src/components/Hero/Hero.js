@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Img } from '../Projects/ProjectsStyles';
 import {
   Section,
   SectionText,
@@ -28,6 +29,9 @@ const Hero = (props) => (
         Learn More
       </Button>
     </LeftSection>
+    {/*  <LeftSection>
+      <img src='/images/12.jpg' />
+    </LeftSection> */}
   </Section>
 );
 
