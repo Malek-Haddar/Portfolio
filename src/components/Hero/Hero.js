@@ -22,16 +22,16 @@ const Hero = (props) => (
       </SectionText>
       <Button
         onClick={() =>
-          (window.location =
-            'https://www.linkedin.com/in/malek-haddar-288304182/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAACsdoIgBlzo-YgtBNkaQvwKn9MXB7tiA1gI,1635458032425)/')
+        (window.location =
+          '')
         }
       >
-        Learn More
+        Malek Haddar
       </Button>
     </LeftSection>
-    {/*  <LeftSection>
-      <img src='/images/12.jpg' />
-    </LeftSection> */}
+    <LeftSection >
+      <img src='/images/malek.png' width="310px" height="450px" />
+    </LeftSection>
   </Section>
 );
 

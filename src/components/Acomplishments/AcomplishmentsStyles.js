@@ -1,9 +1,9 @@
 import styled from "styled-components"
 
-export const Boxes = styled.div`
+export const Boxes = styled.div `
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   margin: 24px 0 40px;
 
@@ -22,7 +22,7 @@ export const Boxes = styled.div`
   }
 `
 
-export const Box = styled.div`
+export const Box = styled.div `
   background: #212D45;
   border-radius: 12px;
   height: 144px;
@@ -46,7 +46,7 @@ export const Box = styled.div`
     }
   }
 `
-export const BoxNum = styled.h5`
+export const BoxNum = styled.h5 `
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -65,7 +65,7 @@ export const BoxNum = styled.h5`
 }
 `
 
-export const BoxText = styled.p`
+export const BoxText = styled.p `
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -84,7 +84,7 @@ export const BoxText = styled.p`
   }
 `
 
-export const Join = styled.div`
+export const Join = styled.div `
   display: flex;
   max-width: 1040px;
   justify-content: center;
@@ -105,7 +105,7 @@ export const Join = styled.div`
   }
 `
 
-export const JoinText = styled.h5`
+export const JoinText = styled.h5 `
   display: flex;
   font-size: 24px;
   line-height: 40px;
@@ -124,7 +124,7 @@ export const JoinText = styled.h5`
 }
 `
 
-export const IconContainer = styled.div`
+export const IconContainer = styled.div `
   display: flex;
 
   @media ${props => props.theme.breakpoints.sm}{

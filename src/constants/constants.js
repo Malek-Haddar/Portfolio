@@ -1,50 +1,45 @@
-export const projects = [
-  {
-    title: 'PI Dev',
-    description:
-      'Developed a web application that let users with the help of a chatbot create their professional CV, enroll in online courses, and get courses, events, and job suggestions based on their skills (React, Node js, Express, MongoDB, Firebase, Dialogflow … )',
+export const projects = [{
+    title: 'BLITZ',
+    description: 'Developed a web application that let users with the help of a chatbot create their professional CV, enroll in online courses, and get courses, events, and job suggestions based on their skills (React, Node js, Express, MongoDB, Firebase, Dialogflow … )',
     image: '/images/home.jpg',
     tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://blitz-assistant.herokuapp.com/',
     visit: 'https://github.com/Malek-Haddar/Elite-devs-Blitz-Chatbot',
     id: 0,
-  },
-  {
-    title: 'E-Commerce',
-    description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+},
+{
+    title: 'I BLOG',
+    description: "Iblog is a collective blog and the first inclusive platform in Tunisia. Read-hear-watch our content.I have an opinion, then I blog ..",
+    image: '/images/i-blog.png',
+    tags: ['Laravel', 'Voyager'],
+    visit: 'https://github.com/Malek-Haddar/iBlog-Voyager',
+    source: 'http://iblog.tn/',
     id: 1,
-  },
-  {
-    title: 'WebRTC App',
-    description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: '/images/3.jpg',
-    tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+},
+{
+    title: 'Royal Car',
+    description: 'Luxurious Car Agency application with Json Server (backend)',
+    image: '/images/car.png',
+    tags: ['Angular', 'Typescript'],
+    visit: 'https://github.com/Malek-Haddar/Royal-Car_Angular-10',
+    source: '#',
     id: 2,
-  },
-  {
-    title: 'Unichat',
-    description:
-      'This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application',
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+},
+{
+    title: 'معلومة',
+    description: "معلومة هو موقع عملتو منظمةأنا يقظ لمتابعة جميع مراحل الحصول على المعلومة وهذا لمتابعة مدى التزام الإدارة واحترامها لحقنا الدستوري في النفاذ إلى المعلومة وهو بدوره مساحة لنشر جميع المعلومات والوثائق المتحصل عليها عبر قانون عدد 22 لسنة 2016 مما يفتح المجال الى استعمالها",
+    image: '/images/info.png',
+    tags: ['Laravel', 'Bootstrap'],
+    visit: 'https://github.com/Malek-Haddar/Ma3louma-Laravel',
+    source: 'https://ma3louma.tn/',
     id: 3,
-  },
+},
 ];
 
 export const TimeLineData = [
-  { year: 2016, text: 'Started my journey' },
-  { year: 2018, text: 'Worked as a freelance developer' },
-  { year: 2019, text: 'Founded JavaScript Mastery' },
-  { year: 2020, text: 'Shared my projects with the world' },
-  { year: 2021, text: 'Started my own platform' },
+    { year: 2016, text: 'Started my journey' },
+    { year: 2019, text: 'got my license' },
+    { year: 2019, text: 'Started my Software engineering cycle at ESPRIT' },
+    { year: 2021, text: 'Passed 3 months internship in I-WATCH' },
+    { year: 2022, text: 'Started my End of Study Project in I-WATCH' },
 ];

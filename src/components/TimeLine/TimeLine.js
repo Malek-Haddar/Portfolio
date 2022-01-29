@@ -67,9 +67,11 @@ const Timeline = () => {
     <Section id='about'>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am a self-taught web developer with a strong eye for innovative
-        technologies and a keen understanding of techniques geared toward
-        optimum user experience
+
+      Questioning by nature, nonconformist by birth, curious by instinct, clumsy by heritage… and programmer by passion!
+      I have a strong growth mindset to set on solving any usability problem that comes my way. You won’t have to ask me
+      twice to come on an adventure with you like outdoor camping in the middle of winter.I also think sport is the answer to most of life’s problems.
+
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
